@@ -1,0 +1,64 @@
+/** Register Form Style
+  * @author Marik Shnitman
+  * @version 01/05/2017 **/
+
+/*.regMain {
+  border: 1px solid black;
+  border-radius: 3px;
+}*/
+
+  .regMain form { margin: 0px 10px; }
+
+  h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .reg_container { max-width: 360px; }
+
+  .reg_divider {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .reg_divider hr {
+    margin: 7px 0px;
+    width: 35%;
+  }
+
+  .left { float: left; }
+
+  .right { float: right; }
+
+  p#reg_passHelp{
+    display: none;
+    color: red;
+    font-weight: bold;
+  }
+
+/* Header */
+#head-container {
+  background-color: #4286f4;
+  padding: 10px;
+}
+
+#logo , #logo *{
+  display: inline-block;
+  margin: 0;
+  margin-left: 5%;
+}
+
+
+#head-login {
+  display: inline-block;
+
+}
+
+#head-register {
+  margin: 0;
+  }
+
+  #head-register a{
+    color: #173566;
+  }

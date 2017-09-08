@@ -1,0 +1,13 @@
+        <?php    $conn = new mysqli(DB_SERVERNAME, DB_USER, DB_PASS, DB_NAME);
+           $profile_post_query = " SELECT * FROM posts WHERE post_writer_id = '$profile_id' ORDER BY `post_time` ASC;";
+           $profile_post_result = mysqli_query($conn, $profile_post_query);
+
+             $profile_post = mysqli_fetch_all($profile_post_result);
+            // print_r ($profile_post);
+
+             foreach ($profile_post as $profile_post => $value) :?>
+                Time: <?php echo "$value[3]"; ?><br />
+                POST: <?php echo "$value[2]"; ?><br />
+
+
+<?php endforeach; ?>
