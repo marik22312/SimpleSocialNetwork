@@ -2,8 +2,6 @@
 **Simple Social Network**
 =======
 A simple social network, built using PHP & MySQLi
-
- - **[Live Demo](http://social.matimenkes.com/ssn/)**
  
   **Username:** admin@admin
   **Password:** admin
